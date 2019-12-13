@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   counter = 1 
   speakers.each_with_index do |speaker|
     # binding.pry
-  puts new_array << "Hello, #{speaker}! You'll be assigned to room #{counter}!"
+   new_array << "Hello, #{speaker}! You'll be assigned to room #{counter}!"
   counter += 1 
   end 
   new_array
