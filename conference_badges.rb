@@ -23,6 +23,6 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  bas
+
     end 
 end 
