@@ -23,13 +23,13 @@ def assign_rooms(speakers)
 end 
 
 def printer(attendees)
-  # array = []
+  array = []
  rooms = assign_rooms(attendees)
   badges = batch_badge_creator(attendees)
   badges.each do |badge|
-    return badge 
+    puts array << badge 
     end 
     rooms.each do |room|
-      return room
+      puts array << room
     end 
 end 
